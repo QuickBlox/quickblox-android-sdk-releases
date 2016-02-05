@@ -45,7 +45,7 @@ dependencies {
 
 ### JAR Installation
 
-To install the QuickBlox Android SDK directly from a JAR binary download the latest JAR release from the Github project and complete the following steps:
+To install the QuickBlox Android SDK directly from a JAR binary download the latest JAR release from the [Github project](https://github.com/QuickBlox/quickblox-android-sdk-releases/tree/master/com/quickblox) and complete the following steps:
 
 1. Drag the JAR file into the /libs directory of your Android Studio application Navigate to the JAR file in Android Studio navigatior, right click and select "Add As A Library..."
 2. Navigate to your build.gradle file and ensure that you include the following:
