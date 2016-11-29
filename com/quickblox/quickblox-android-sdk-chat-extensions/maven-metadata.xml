@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>com.quickblox</groupId>
+  <artifactId>quickblox-android-sdk-chat-extensions</artifactId>
+  <versioning>
+    <release>3.2.0</release>
+    <versions>
+      <version>3.2.0</version>
+    </versions>
+    <lastUpdated>20161129154348</lastUpdated>
+  </versioning>
+</metadata>
