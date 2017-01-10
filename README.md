@@ -21,7 +21,6 @@ allprojects {
         maven {
             url "https://github.com/QuickBlox/quickblox-android-sdk-releases/raw/master/"
         }
-        mavenCentral()
     }
 }
 
