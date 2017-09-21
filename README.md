@@ -24,7 +24,7 @@ allprojects {
     }
 }
 
-def qbSdkVersion = '3.3.4'
+def qbSdkVersion = '3.4.0'
 
 dependencies {
     //
