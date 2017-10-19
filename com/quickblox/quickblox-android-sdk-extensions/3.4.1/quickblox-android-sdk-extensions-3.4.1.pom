@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.quickblox</groupId>
+  <artifactId>quickblox-android-sdk-extensions</artifactId>
+  <version>3.4.1</version>
+  <packaging>aar</packaging>
+  <name>QuickBlox</name>
+  <url>https://quickblox.com</url>
+  <inceptionYear>2016</inceptionYear>
+  <developers>
+    <developer>
+      <id>igorkhomenko</id>
+      <name>Igor Khomenko</name>
+      <email>igore@quickblox.com</email>
+      <organizationUrl>https://quickblox.com</organizationUrl>
+    </developer>
+    <developer>
+      <id>vadimfite</id>
+      <name>Vadim Fite</name>
+      <email>vadim.fite@quickblox.com</email>
+      <organizationUrl>https://quickblox.com</organizationUrl>
+    </developer>
+  </developers>
+  <dependencies>
+    <dependency>
+      <groupId>com.quickblox</groupId>
+      <artifactId>quickblox-android-sdk-core</artifactId>
+      <version>3.4.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>io.reactivex</groupId>
+      <artifactId>rxjava</artifactId>
+      <version>1.2.1</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>
