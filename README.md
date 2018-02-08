@@ -13,7 +13,7 @@ QuickBlox  is Communication as a Service provider. The platform provides chat us
 The QuickBlox Android SDK can be installed directly into your application by importing sdk artifacts via Gradle.
 
 ### GRADLE Installation
-Add the following code to your project's `build.gradle` file:
+Add the following code to your **project's** `build.gradle` file:
 
 ```groovy
 allprojects {
@@ -24,14 +24,18 @@ allprojects {
     }
 }
 
-def qbSdkVersion = '3.4.0'
+def qbSdkVersion = '3.7.0'
+
+```
+And the following code to your **module's** `build.gradle` file:
+```groovy
 
 dependencies {
     //
-    сompile "com.quickblox:quickblox-android-sdk-chat:$qbSdkVersion" //include only necessary module dependency, all transitive modules will be included automatically
-    сompile "com.quickblox:quickblox-android-sdk-content:$qbSdkVersion"
-    сompile "com.quickblox:quickblox-android-sdk-messages:$qbSdkVersion"
-    сompile "com.quickblox:quickblox-android-sdk-customobjects:$qbSdkVersion"
+    сompile "com.quickblox:quickblox-android-sdk-chat:$rootProject.qbSdkVersion" //include only necessary module dependency, all transitive modules will be included automatically
+    сompile "com.quickblox:quickblox-android-sdk-content:$rootProject.qbSdkVersion"
+    сompile "com.quickblox:quickblox-android-sdk-messages:$rootProject.qbSdkVersion"
+    сompile "com.quickblox:quickblox-android-sdk-customobjects:$rootProject.qbSdkVersion"
 }
 ```
 
