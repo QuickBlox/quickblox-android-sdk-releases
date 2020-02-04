@@ -3,7 +3,7 @@
   <groupId>com.quickblox</groupId>
   <artifactId>quickblox-android-sdk-extensions</artifactId>
   <versioning>
-    <release>3.9.1</release>
+    <release>3.9.2</release>
     <versions>
       <version>3.0</version>
       <version>3.1.0</version>
@@ -26,7 +26,8 @@
       <version>3.8.1</version>
       <version>3.9.0</version>
       <version>3.9.1</version>
+      <version>3.9.2</version>
     </versions>
-    <lastUpdated>20190416100419</lastUpdated>
+    <lastUpdated>20200204091231</lastUpdated>
   </versioning>
 </metadata>
