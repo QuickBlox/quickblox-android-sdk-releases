@@ -3,7 +3,7 @@
   <groupId>com.quickblox</groupId>
   <artifactId>quickblox-android-sdk-conference</artifactId>
   <versioning>
-    <release>3.9.9</release>
+    <release>3.9.10</release>
     <versions>
       <version>3.3.2</version>
       <version>3.3.3</version>
@@ -29,7 +29,8 @@
       <version>3.9.7</version>
       <version>3.9.8</version>
       <version>3.9.9</version>
+      <version>3.9.10</version>
     </versions>
-    <lastUpdated>20201225102053</lastUpdated>
+    <lastUpdated>20210120133210</lastUpdated>
   </versioning>
 </metadata>
