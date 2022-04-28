@@ -3,7 +3,7 @@
   <groupId>com.quickblox</groupId>
   <artifactId>quickblox-android-sdk-chat</artifactId>
   <versioning>
-    <release>3.9.15</release>
+    <release>3.9.15-smack</release>
     <versions>
       <version>2.5</version>
       <version>2.5.1</version>
@@ -45,7 +45,8 @@
       <version>3.9.13</version>
       <version>3.9.14</version>
       <version>3.9.15</version>
+      <version>3.9.15-smack</version>
     </versions>
-    <lastUpdated>20220202162950</lastUpdated>
+    <lastUpdated>20220428150721</lastUpdated>
   </versioning>
 </metadata>
