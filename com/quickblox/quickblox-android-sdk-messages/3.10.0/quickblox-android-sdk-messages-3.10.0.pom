@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.quickblox</groupId>
+  <artifactId>quickblox-android-sdk-messages</artifactId>
+  <version>3.10.0</version>
+  <packaging>aar</packaging>
+  <name>QuickBlox</name>
+  <url>https://quickblox.com</url>
+  <inceptionYear>2022</inceptionYear>
+  <developers>
+    <developer>
+      <id>kirilltolmachev</id>
+      <name>Kirill Tolmachev</name>
+      <email>kirill.tolmachev@quickblox.com</email>
+      <organizationUrl>https://quickblox.com</organizationUrl>
+    </developer>
+  </developers>
+  <dependencies>
+    <dependency>
+      <groupId>com.quickblox</groupId>
+      <artifactId>quickblox-android-sdk-core</artifactId>
+      <version>3.10.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.google.firebase</groupId>
+      <artifactId>firebase-messaging</artifactId>
+      <version>17.3.3</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>androidx.work</groupId>
+      <artifactId>work-runtime</artifactId>
+      <version>2.7.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>androidx.work</groupId>
+      <artifactId>work-gcm</artifactId>
+      <version>2.7.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>androidx.legacy</groupId>
+      <artifactId>legacy-support-v4</artifactId>
+      <version>1.0.0</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>
