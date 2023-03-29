@@ -24,7 +24,7 @@ allprojects {
     }
 }
 
-def qbSdkVersion = '4.1.0'
+def qbSdkVersion = '4.1.1'
 
 ```
 And the following code to your **module's** `build.gradle` file:
