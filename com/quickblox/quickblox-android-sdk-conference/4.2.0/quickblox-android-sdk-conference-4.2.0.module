@@ -1,0 +1,83 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.quickblox",
+    "module": "quickblox-android-sdk-conference",
+    "version": "4.2.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.6"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "com.quickblox",
+          "module": "quickblox-android-sdk-videochat-webrtc",
+          "version": {
+            "requires": "4.2.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "quickblox-android-sdk-conference-4.2.0.aar",
+          "url": "quickblox-android-sdk-conference-4.2.0.aar",
+          "size": 69402,
+          "sha512": "63bfa4b2de57ac955b8d0448a025f928993ca00589f1a6376f5a7d1cbfcee269f3d2f329ec00e87ed0f7d301f24c3bbee885afe3800efee20d2c622290bf3a02",
+          "sha256": "1d524390695ef227f60da758629d5cf01231471a9e7e7c89bfcf00f71584012a",
+          "sha1": "bee8299bcfd750409a63451b79f81daf740f67f2",
+          "md5": "55ed40fa90b27af98e0df45262b64158"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.neovisionaries",
+          "module": "nv-websocket-client",
+          "version": {
+            "requires": "1.31"
+          }
+        },
+        {
+          "group": "com.quickblox",
+          "module": "quickblox-android-sdk-videochat-webrtc",
+          "version": {
+            "requires": "4.2.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "quickblox-android-sdk-conference-4.2.0.aar",
+          "url": "quickblox-android-sdk-conference-4.2.0.aar",
+          "size": 69402,
+          "sha512": "63bfa4b2de57ac955b8d0448a025f928993ca00589f1a6376f5a7d1cbfcee269f3d2f329ec00e87ed0f7d301f24c3bbee885afe3800efee20d2c622290bf3a02",
+          "sha256": "1d524390695ef227f60da758629d5cf01231471a9e7e7c89bfcf00f71584012a",
+          "sha1": "bee8299bcfd750409a63451b79f81daf740f67f2",
+          "md5": "55ed40fa90b27af98e0df45262b64158"
+        }
+      ]
+    }
+  ]
+}

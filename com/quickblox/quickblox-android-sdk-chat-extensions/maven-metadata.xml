@@ -3,7 +3,8 @@
   <groupId>com.quickblox</groupId>
   <artifactId>quickblox-android-sdk-chat-extensions</artifactId>
   <versioning>
-    <release>4.1.3</release>
+    <latest>4.2.0</latest>
+    <release>4.2.0</release>
     <versions>
       <version>3.2.0</version>
       <version>3.3.0</version>
@@ -53,7 +54,8 @@
       <version>4.1.1</version>
       <version>4.1.2</version>
       <version>4.1.3</version>
+      <version>4.2.0</version>
     </versions>
-    <lastUpdated>20240229133217</lastUpdated>
+    <lastUpdated>20240729111820</lastUpdated>
   </versioning>
 </metadata>

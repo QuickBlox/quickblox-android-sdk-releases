@@ -1,0 +1,67 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.quickblox",
+    "module": "quickblox-android-sdk-ai",
+    "version": "4.2.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.6"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "quickblox-android-sdk-ai-4.2.0.aar",
+          "url": "quickblox-android-sdk-ai-4.2.0.aar",
+          "size": 767,
+          "sha512": "8783fae4cc8b54f02256ea194cfdeefe4f5d1471783f4097ca7c9add16701d873ffc72c42e34c34ce03c51fd5cebfc09a666858a849fed4fdded15ebc6807ff6",
+          "sha256": "6426e671c41062098022c2d5caf6f9c80384fc8c095903408f421713aa581e64",
+          "sha1": "0489d18666bfc0fa70f918c6f804b460ec1d3e96",
+          "md5": "c75eb8a7b0f1ece8048ef17fc185cd61"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.quickblox",
+          "module": "quickblox-android-sdk-core",
+          "version": {
+            "requires": "4.2.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "quickblox-android-sdk-ai-4.2.0.aar",
+          "url": "quickblox-android-sdk-ai-4.2.0.aar",
+          "size": 767,
+          "sha512": "8783fae4cc8b54f02256ea194cfdeefe4f5d1471783f4097ca7c9add16701d873ffc72c42e34c34ce03c51fd5cebfc09a666858a849fed4fdded15ebc6807ff6",
+          "sha256": "6426e671c41062098022c2d5caf6f9c80384fc8c095903408f421713aa581e64",
+          "sha1": "0489d18666bfc0fa70f918c6f804b460ec1d3e96",
+          "md5": "c75eb8a7b0f1ece8048ef17fc185cd61"
+        }
+      ]
+    }
+  ]
+}
