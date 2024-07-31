@@ -1,0 +1,67 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.quickblox",
+    "module": "quickblox-android-sdk-chat-extensions",
+    "version": "4.2.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.6"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "quickblox-android-sdk-chat-extensions-4.2.1.aar",
+          "url": "quickblox-android-sdk-chat-extensions-4.2.1.aar",
+          "size": 82631,
+          "sha512": "5487a1653e19c4d27c96a15575663732c3ff115106409d2b129a0f98bfcec8bdb5c59fd0b7abf0d46786924f1bf4ef25e32deb549585903ff35342f2b9b55fd1",
+          "sha256": "e240e7b8b5f31fdbf1327c9ebed055ef483c267b545c3dd85f741bd116bdcce4",
+          "sha1": "f48cbf976b82f79bdcbf43742c4b85ac46d6c3dd",
+          "md5": "bb55fd401ec3c8af0bba16551d7277c0"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.quickblox",
+          "module": "quickblox-android-sdk-chat",
+          "version": {
+            "requires": "4.2.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "quickblox-android-sdk-chat-extensions-4.2.1.aar",
+          "url": "quickblox-android-sdk-chat-extensions-4.2.1.aar",
+          "size": 82631,
+          "sha512": "5487a1653e19c4d27c96a15575663732c3ff115106409d2b129a0f98bfcec8bdb5c59fd0b7abf0d46786924f1bf4ef25e32deb549585903ff35342f2b9b55fd1",
+          "sha256": "e240e7b8b5f31fdbf1327c9ebed055ef483c267b545c3dd85f741bd116bdcce4",
+          "sha1": "f48cbf976b82f79bdcbf43742c4b85ac46d6c3dd",
+          "md5": "bb55fd401ec3c8af0bba16551d7277c0"
+        }
+      ]
+    }
+  ]
+}
