@@ -1,0 +1,116 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.quickblox",
+    "module": "quickblox-android-sdk-videochat-webrtc",
+    "version": "4.2.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.6"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "com.quickblox",
+          "module": "quickblox-android-sdk-chat",
+          "version": {
+            "requires": "4.2.1"
+          }
+        },
+        {
+          "group": "com.quickblox",
+          "module": "google-webrtc",
+          "version": {
+            "requires": "m105"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "*"
+            }
+          ],
+          "thirdPartyCompatibility": {
+            "artifactSelector": {
+              "name": "google-webrtc",
+              "type": "aar",
+              "extension": "aar"
+            }
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "quickblox-android-sdk-videochat-webrtc-4.2.1.aar",
+          "url": "quickblox-android-sdk-videochat-webrtc-4.2.1.aar",
+          "size": 225043,
+          "sha512": "02766b719b9c3fd4fc03c7998f37f1869ad1a04491e4f17ec1259037abed2086eb81ee9f932708dc235f03e35ed1711939d4442d4f6f801c330d5f62fe5363b0",
+          "sha256": "87c0e7d1bcd0fb8146c6c756198a01377b33ecb3726bbf842a8377d4019387b5",
+          "sha1": "b37c7876f9fe8f47a3c8232c0bb411fb85db4c6d",
+          "md5": "157331ca5f2729f0bead336f724702f4"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.quickblox",
+          "module": "quickblox-android-sdk-chat",
+          "version": {
+            "requires": "4.2.1"
+          }
+        },
+        {
+          "group": "com.quickblox",
+          "module": "google-webrtc",
+          "version": {
+            "requires": "m105"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "*"
+            }
+          ],
+          "thirdPartyCompatibility": {
+            "artifactSelector": {
+              "name": "google-webrtc",
+              "type": "aar",
+              "extension": "aar"
+            }
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "quickblox-android-sdk-videochat-webrtc-4.2.1.aar",
+          "url": "quickblox-android-sdk-videochat-webrtc-4.2.1.aar",
+          "size": 225043,
+          "sha512": "02766b719b9c3fd4fc03c7998f37f1869ad1a04491e4f17ec1259037abed2086eb81ee9f932708dc235f03e35ed1711939d4442d4f6f801c330d5f62fe5363b0",
+          "sha256": "87c0e7d1bcd0fb8146c6c756198a01377b33ecb3726bbf842a8377d4019387b5",
+          "sha1": "b37c7876f9fe8f47a3c8232c0bb411fb85db4c6d",
+          "md5": "157331ca5f2729f0bead336f724702f4"
+        }
+      ]
+    }
+  ]
+}
