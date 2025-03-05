@@ -1,0 +1,67 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.quickblox",
+    "module": "quickblox-android-sdk-customobjects",
+    "version": "4.3.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.6"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "quickblox-android-sdk-customobjects-4.3.0.aar",
+          "url": "quickblox-android-sdk-customobjects-4.3.0.aar",
+          "size": 52309,
+          "sha512": "5c7c13df75da2d1dc231287bd4f15e2a5f7852204c5705dc309cec04901d12eb0fd7e7babbaf8291d37a0fae2362c173d71b03a7ccc635bb9bbaba3866880ff9",
+          "sha256": "cb85750473aa127fa41c0893005b10b386f0c40939fbbaa41db558c541096f5b",
+          "sha1": "334639e487b2c34f9265a481cb44c54cc94520e2",
+          "md5": "3d9937e98efb580afdbfb91ac810779a"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.quickblox",
+          "module": "quickblox-android-sdk-core",
+          "version": {
+            "requires": "4.3.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "quickblox-android-sdk-customobjects-4.3.0.aar",
+          "url": "quickblox-android-sdk-customobjects-4.3.0.aar",
+          "size": 52309,
+          "sha512": "5c7c13df75da2d1dc231287bd4f15e2a5f7852204c5705dc309cec04901d12eb0fd7e7babbaf8291d37a0fae2362c173d71b03a7ccc635bb9bbaba3866880ff9",
+          "sha256": "cb85750473aa127fa41c0893005b10b386f0c40939fbbaa41db558c541096f5b",
+          "sha1": "334639e487b2c34f9265a481cb44c54cc94520e2",
+          "md5": "3d9937e98efb580afdbfb91ac810779a"
+        }
+      ]
+    }
+  ]
+}
