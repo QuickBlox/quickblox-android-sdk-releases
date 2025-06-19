@@ -1,0 +1,74 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.quickblox",
+    "module": "quickblox-android-sdk-extensions",
+    "version": "4.3.1-alpha.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.6"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "quickblox-android-sdk-extensions-4.3.1-alpha.1.aar",
+          "url": "quickblox-android-sdk-extensions-4.3.1-alpha.1.aar",
+          "size": 3476,
+          "sha512": "300b5e5b7557a175aef33a8d64eafe31c097346cf1eb799000d068711eb7e5b649785f13c700ebd8705ded2884618b99f66316e04e225bede926d03b99806ba1",
+          "sha256": "84644c6a25f03772e7de922aa74925d6f5b977ea71ea7bef13e6568b34fc7c3c",
+          "sha1": "3d588803659a19ee9246bdbb60fff7d3aec2dbb8",
+          "md5": "07e347bf53b3715344c849f8470e3359"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.quickblox",
+          "module": "quickblox-android-sdk-core",
+          "version": {
+            "requires": "4.3.1-alpha.1"
+          }
+        },
+        {
+          "group": "io.reactivex",
+          "module": "rxjava",
+          "version": {
+            "requires": "1.2.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "quickblox-android-sdk-extensions-4.3.1-alpha.1.aar",
+          "url": "quickblox-android-sdk-extensions-4.3.1-alpha.1.aar",
+          "size": 3476,
+          "sha512": "300b5e5b7557a175aef33a8d64eafe31c097346cf1eb799000d068711eb7e5b649785f13c700ebd8705ded2884618b99f66316e04e225bede926d03b99806ba1",
+          "sha256": "84644c6a25f03772e7de922aa74925d6f5b977ea71ea7bef13e6568b34fc7c3c",
+          "sha1": "3d588803659a19ee9246bdbb60fff7d3aec2dbb8",
+          "md5": "07e347bf53b3715344c849f8470e3359"
+        }
+      ]
+    }
+  ]
+}
