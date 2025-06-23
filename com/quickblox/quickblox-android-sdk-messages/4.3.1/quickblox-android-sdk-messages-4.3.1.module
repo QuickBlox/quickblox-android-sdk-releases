@@ -1,0 +1,102 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.quickblox",
+    "module": "quickblox-android-sdk-messages",
+    "version": "4.3.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.6"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "quickblox-android-sdk-messages-4.3.1.aar",
+          "url": "quickblox-android-sdk-messages-4.3.1.aar",
+          "size": 52296,
+          "sha512": "d329cf9dc67f1729987f3b7bc7b8ff0d3280d83426b29596050deb61f17b1098ed37d278699abe2f3bae97e31b4206932c4ebbc15d727efb46e9f8ba8d0bfdc0",
+          "sha256": "3b83ffaed3248f5b600db0763b4e0f50da2edbfc3820ebd6e0dfd423cc31d6ee",
+          "sha1": "021e1283a813d7d94e465b3ecbcfd5c1482180ec",
+          "md5": "98859634e157f1ce4359c9e4195bf752"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.quickblox",
+          "module": "quickblox-android-sdk-core",
+          "version": {
+            "requires": "4.3.1"
+          }
+        },
+        {
+          "group": "com.google.firebase",
+          "module": "firebase-messaging",
+          "version": {
+            "requires": "24.0.0"
+          }
+        },
+        {
+          "group": "androidx.work",
+          "module": "work-runtime",
+          "version": {
+            "requires": "2.7.0"
+          }
+        },
+        {
+          "group": "androidx.work",
+          "module": "work-gcm",
+          "version": {
+            "requires": "2.7.0"
+          }
+        },
+        {
+          "group": "androidx.legacy",
+          "module": "legacy-support-v4",
+          "version": {
+            "requires": "1.0.0"
+          }
+        },
+        {
+          "group": "com.google.android.gms",
+          "module": "play-services-base",
+          "version": {
+            "requires": "18.5.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "quickblox-android-sdk-messages-4.3.1.aar",
+          "url": "quickblox-android-sdk-messages-4.3.1.aar",
+          "size": 52296,
+          "sha512": "d329cf9dc67f1729987f3b7bc7b8ff0d3280d83426b29596050deb61f17b1098ed37d278699abe2f3bae97e31b4206932c4ebbc15d727efb46e9f8ba8d0bfdc0",
+          "sha256": "3b83ffaed3248f5b600db0763b4e0f50da2edbfc3820ebd6e0dfd423cc31d6ee",
+          "sha1": "021e1283a813d7d94e465b3ecbcfd5c1482180ec",
+          "md5": "98859634e157f1ce4359c9e4195bf752"
+        }
+      ]
+    }
+  ]
+}
