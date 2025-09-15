@@ -1,0 +1,67 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.quickblox",
+    "module": "quickblox-android-sdk-content",
+    "version": "rc-4.3.4.alpha02",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.6"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "quickblox-android-sdk-content-rc-4.3.4.alpha02.aar",
+          "url": "quickblox-android-sdk-content-rc-4.3.4.alpha02.aar",
+          "size": 33897,
+          "sha512": "80e51335bf2d3c38e0d81431f47bfd0ea829452ea8b8f1ff0fd48e2ff7c48119dc7c62f5af44d600e11cc46b0b280892c12c31300ad8bb8e8eab1a526879bf6e",
+          "sha256": "67b81a4652cbeef187f0abe4019ed78be51d33e69bfbb79121baa63d6ac2baab",
+          "sha1": "878362fe55452288a5e0bbccf1a1c5240ea0d585",
+          "md5": "944cdde62b4dd415d285cb2ab5290ad1"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.quickblox",
+          "module": "quickblox-android-sdk-core",
+          "version": {
+            "requires": "rc-4.3.4.alpha02"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "quickblox-android-sdk-content-rc-4.3.4.alpha02.aar",
+          "url": "quickblox-android-sdk-content-rc-4.3.4.alpha02.aar",
+          "size": 33897,
+          "sha512": "80e51335bf2d3c38e0d81431f47bfd0ea829452ea8b8f1ff0fd48e2ff7c48119dc7c62f5af44d600e11cc46b0b280892c12c31300ad8bb8e8eab1a526879bf6e",
+          "sha256": "67b81a4652cbeef187f0abe4019ed78be51d33e69bfbb79121baa63d6ac2baab",
+          "sha1": "878362fe55452288a5e0bbccf1a1c5240ea0d585",
+          "md5": "944cdde62b4dd415d285cb2ab5290ad1"
+        }
+      ]
+    }
+  ]
+}

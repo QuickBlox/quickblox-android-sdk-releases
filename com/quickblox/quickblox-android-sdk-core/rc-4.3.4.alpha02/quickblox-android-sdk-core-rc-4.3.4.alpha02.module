@@ -1,0 +1,76 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.quickblox",
+    "module": "quickblox-android-sdk-core",
+    "version": "rc-4.3.4.alpha02",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.6"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.10.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "quickblox-android-sdk-core-rc-4.3.4.alpha02.aar",
+          "url": "quickblox-android-sdk-core-rc-4.3.4.alpha02.aar",
+          "size": 198370,
+          "sha512": "93276310b1228634a82dd9646508d5cd4630013bdc62268fe0eefc83530247991745bdf5205a54662dff49ad94f9c7373ba6077d2607ee1739447db55ffc0e76",
+          "sha256": "88d03e118d542a5a53275b44681df7f07ef1de86d36f9c3fddb53d393542f7b5",
+          "sha1": "3ce8645ecb9ff9027c7f46decb84674ed5f62ea2",
+          "md5": "096dcf782b29c49bd65a4af3bcf68504"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.10.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "quickblox-android-sdk-core-rc-4.3.4.alpha02.aar",
+          "url": "quickblox-android-sdk-core-rc-4.3.4.alpha02.aar",
+          "size": 198370,
+          "sha512": "93276310b1228634a82dd9646508d5cd4630013bdc62268fe0eefc83530247991745bdf5205a54662dff49ad94f9c7373ba6077d2607ee1739447db55ffc0e76",
+          "sha256": "88d03e118d542a5a53275b44681df7f07ef1de86d36f9c3fddb53d393542f7b5",
+          "sha1": "3ce8645ecb9ff9027c7f46decb84674ed5f62ea2",
+          "md5": "096dcf782b29c49bd65a4af3bcf68504"
+        }
+      ]
+    }
+  ]
+}
