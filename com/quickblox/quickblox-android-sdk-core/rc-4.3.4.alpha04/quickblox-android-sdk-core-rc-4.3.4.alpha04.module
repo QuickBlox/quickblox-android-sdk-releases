@@ -1,0 +1,76 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.quickblox",
+    "module": "quickblox-android-sdk-core",
+    "version": "rc-4.3.4.alpha04",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.6"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.10.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "quickblox-android-sdk-core-rc-4.3.4.alpha04.aar",
+          "url": "quickblox-android-sdk-core-rc-4.3.4.alpha04.aar",
+          "size": 198368,
+          "sha512": "5bd27bc1d0289b75e62b64d21c16b7bd2d67c2453601534da9ebac2a4464f3cb83e6a6f070516613addf6c2e4079a5920864cf35fcbc4cb959f90c5a4307a8b3",
+          "sha256": "fcb648047b53874c2a19ffb3c91728c1a1c213160f476f296417878a3386ff5f",
+          "sha1": "57c81954434e61b6fc6d4824011f82dcf032acbe",
+          "md5": "7aeec9ef9b1ce7c2727ccc655186ac17"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.10.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "quickblox-android-sdk-core-rc-4.3.4.alpha04.aar",
+          "url": "quickblox-android-sdk-core-rc-4.3.4.alpha04.aar",
+          "size": 198368,
+          "sha512": "5bd27bc1d0289b75e62b64d21c16b7bd2d67c2453601534da9ebac2a4464f3cb83e6a6f070516613addf6c2e4079a5920864cf35fcbc4cb959f90c5a4307a8b3",
+          "sha256": "fcb648047b53874c2a19ffb3c91728c1a1c213160f476f296417878a3386ff5f",
+          "sha1": "57c81954434e61b6fc6d4824011f82dcf032acbe",
+          "md5": "7aeec9ef9b1ce7c2727ccc655186ac17"
+        }
+      ]
+    }
+  ]
+}

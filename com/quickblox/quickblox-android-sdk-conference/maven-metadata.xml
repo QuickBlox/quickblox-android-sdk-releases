@@ -3,8 +3,8 @@
   <groupId>com.quickblox</groupId>
   <artifactId>quickblox-android-sdk-conference</artifactId>
   <versioning>
-    <latest>rc-4.3.4.alpha03</latest>
-    <release>rc-4.3.4.alpha03</release>
+    <latest>rc-4.3.4.alpha04</latest>
+    <release>rc-4.3.4.alpha04</release>
     <versions>
       <version>3.3.2</version>
       <version>3.3.3</version>
@@ -61,7 +61,8 @@
       <version>rc-4.3.4.alpha01</version>
       <version>rc-4.3.4.alpha02</version>
       <version>rc-4.3.4.alpha03</version>
+      <version>rc-4.3.4.alpha04</version>
     </versions>
-    <lastUpdated>20250915135512</lastUpdated>
+    <lastUpdated>20250915140219</lastUpdated>
   </versioning>
 </metadata>

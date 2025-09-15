@@ -1,0 +1,74 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.quickblox",
+    "module": "quickblox-android-sdk-extensions",
+    "version": "rc-4.3.4.alpha04",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.6"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "quickblox-android-sdk-extensions-rc-4.3.4.alpha04.aar",
+          "url": "quickblox-android-sdk-extensions-rc-4.3.4.alpha04.aar",
+          "size": 3518,
+          "sha512": "26d696f6ee52385a2860c697fdd6d2b131e9eb81be37d577d42e3d8af23649f267b8f42bc5a62c95df6ce6aa9c283b497d3697a3bbbfc7685c2f007efd4d651c",
+          "sha256": "2aff8660604cb79575d0d8e6fa6e34c293fcd652d4aebe471b90ef61a1d70965",
+          "sha1": "a3d9c1a37b58a83dfa2db2333f404a6d778663c1",
+          "md5": "c09e1df65d4ad803c042ec71f214ba0a"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.quickblox",
+          "module": "quickblox-android-sdk-core",
+          "version": {
+            "requires": "rc-4.3.4.alpha04"
+          }
+        },
+        {
+          "group": "io.reactivex",
+          "module": "rxjava",
+          "version": {
+            "requires": "1.2.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "quickblox-android-sdk-extensions-rc-4.3.4.alpha04.aar",
+          "url": "quickblox-android-sdk-extensions-rc-4.3.4.alpha04.aar",
+          "size": 3518,
+          "sha512": "26d696f6ee52385a2860c697fdd6d2b131e9eb81be37d577d42e3d8af23649f267b8f42bc5a62c95df6ce6aa9c283b497d3697a3bbbfc7685c2f007efd4d651c",
+          "sha256": "2aff8660604cb79575d0d8e6fa6e34c293fcd652d4aebe471b90ef61a1d70965",
+          "sha1": "a3d9c1a37b58a83dfa2db2333f404a6d778663c1",
+          "md5": "c09e1df65d4ad803c042ec71f214ba0a"
+        }
+      ]
+    }
+  ]
+}
