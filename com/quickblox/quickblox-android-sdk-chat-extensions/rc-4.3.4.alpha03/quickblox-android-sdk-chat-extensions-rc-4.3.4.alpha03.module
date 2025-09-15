@@ -1,0 +1,67 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.quickblox",
+    "module": "quickblox-android-sdk-chat-extensions",
+    "version": "rc-4.3.4.alpha03",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.6"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "quickblox-android-sdk-chat-extensions-rc-4.3.4.alpha03.aar",
+          "url": "quickblox-android-sdk-chat-extensions-rc-4.3.4.alpha03.aar",
+          "size": 82681,
+          "sha512": "c50363eddea8455b1b547419bfdf64a8a89d19f3f2dc1c948c29a1a913d56d70ab8ea5ea01ff77e108e60048fd78f602e0115564fc28adf63cfdac4f8d93ab91",
+          "sha256": "80e3090dce1cb5f18a7fe6bb8535b632cda3600a04f23337a4b578f229f1de11",
+          "sha1": "6aa622be6f5b58d46dc1632079141828e56fbfbe",
+          "md5": "ead0f07d5175222bd25460494086a94c"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.quickblox",
+          "module": "quickblox-android-sdk-chat",
+          "version": {
+            "requires": "rc-4.3.4.alpha03"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "quickblox-android-sdk-chat-extensions-rc-4.3.4.alpha03.aar",
+          "url": "quickblox-android-sdk-chat-extensions-rc-4.3.4.alpha03.aar",
+          "size": 82681,
+          "sha512": "c50363eddea8455b1b547419bfdf64a8a89d19f3f2dc1c948c29a1a913d56d70ab8ea5ea01ff77e108e60048fd78f602e0115564fc28adf63cfdac4f8d93ab91",
+          "sha256": "80e3090dce1cb5f18a7fe6bb8535b632cda3600a04f23337a4b578f229f1de11",
+          "sha1": "6aa622be6f5b58d46dc1632079141828e56fbfbe",
+          "md5": "ead0f07d5175222bd25460494086a94c"
+        }
+      ]
+    }
+  ]
+}
