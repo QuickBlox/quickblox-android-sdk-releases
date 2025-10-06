@@ -1,0 +1,76 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.quickblox",
+    "module": "quickblox-android-sdk-core",
+    "version": "4.3.4",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.6"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.10.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "quickblox-android-sdk-core-4.3.4.aar",
+          "url": "quickblox-android-sdk-core-4.3.4.aar",
+          "size": 198344,
+          "sha512": "fbc1ce2af5157340fb9c17d9e380ff6d15080405964f1a7f3ab23f32f379c09ddf28693cc4d1837aeb4f7542be46518eadc642c3dcfd5d25c2c649a68498f466",
+          "sha256": "526064d7cd25013a94ed81054f81f3d1bcebe7c50f5ac790cfb5b26e268d315f",
+          "sha1": "f8dc955fd941bb21b2fca62870ec7a41ee1a7dad",
+          "md5": "a9a1f74557b601fcee3fe771bebb896f"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.10.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "quickblox-android-sdk-core-4.3.4.aar",
+          "url": "quickblox-android-sdk-core-4.3.4.aar",
+          "size": 198344,
+          "sha512": "fbc1ce2af5157340fb9c17d9e380ff6d15080405964f1a7f3ab23f32f379c09ddf28693cc4d1837aeb4f7542be46518eadc642c3dcfd5d25c2c649a68498f466",
+          "sha256": "526064d7cd25013a94ed81054f81f3d1bcebe7c50f5ac790cfb5b26e268d315f",
+          "sha1": "f8dc955fd941bb21b2fca62870ec7a41ee1a7dad",
+          "md5": "a9a1f74557b601fcee3fe771bebb896f"
+        }
+      ]
+    }
+  ]
+}
