@@ -1,0 +1,76 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.quickblox",
+    "module": "quickblox-android-sdk-core",
+    "version": "4.4.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.6"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.10.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "quickblox-android-sdk-core-4.4.1.aar",
+          "url": "quickblox-android-sdk-core-4.4.1.aar",
+          "size": 198487,
+          "sha512": "b7d27ce87026a204f75b63e0b9c2dc284a1859627bfe014e22e1df4d9089a63039b16eae51e796e0bdfac861c5ceb2a7ed70d2a8a755ffa4bcaf908f4396fb5a",
+          "sha256": "9d2691c53fe7ab0392f866d0d500e3797aa8fafafbaa630d2caa3383f0aadf7e",
+          "sha1": "ee27f8a4f93d3a41c0c6c782a26fc067ccc3783f",
+          "md5": "80e7e0a85cd2fde64e2da9072502690c"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.10.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "quickblox-android-sdk-core-4.4.1.aar",
+          "url": "quickblox-android-sdk-core-4.4.1.aar",
+          "size": 198487,
+          "sha512": "b7d27ce87026a204f75b63e0b9c2dc284a1859627bfe014e22e1df4d9089a63039b16eae51e796e0bdfac861c5ceb2a7ed70d2a8a755ffa4bcaf908f4396fb5a",
+          "sha256": "9d2691c53fe7ab0392f866d0d500e3797aa8fafafbaa630d2caa3383f0aadf7e",
+          "sha1": "ee27f8a4f93d3a41c0c6c782a26fc067ccc3783f",
+          "md5": "80e7e0a85cd2fde64e2da9072502690c"
+        }
+      ]
+    }
+  ]
+}
