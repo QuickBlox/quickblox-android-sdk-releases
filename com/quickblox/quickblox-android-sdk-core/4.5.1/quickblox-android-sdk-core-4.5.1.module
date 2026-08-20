@@ -1,0 +1,88 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.quickblox",
+    "module": "quickblox-android-sdk-core",
+    "version": "4.5.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.6"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.13.2"
+          },
+          "excludes": [
+            {
+              "group": "com.google.errorprone",
+              "module": "error_prone_annotations"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "quickblox-android-sdk-core-4.5.1.aar",
+          "url": "quickblox-android-sdk-core-4.5.1.aar",
+          "size": 198488,
+          "sha512": "b186cb7d788b8f8ccb36b44da0ad1dfe915739e4a5a75e41a4d6637baae89988324d702792d926e7027bdf960cd82c1468b019aec0896e88b8511653bb50224a",
+          "sha256": "097608fb12d34c83c376969915c1902ed14d27b085eedb4eba2b2acac7ba41fe",
+          "sha1": "174e23c5e7dfc30bdd3a8fa7eeaca4c9d8606ae4",
+          "md5": "6d5df7425f63ddec986678adbae7f3e5"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.13.2"
+          },
+          "excludes": [
+            {
+              "group": "com.google.errorprone",
+              "module": "error_prone_annotations"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "quickblox-android-sdk-core-4.5.1.aar",
+          "url": "quickblox-android-sdk-core-4.5.1.aar",
+          "size": 198488,
+          "sha512": "b186cb7d788b8f8ccb36b44da0ad1dfe915739e4a5a75e41a4d6637baae89988324d702792d926e7027bdf960cd82c1468b019aec0896e88b8511653bb50224a",
+          "sha256": "097608fb12d34c83c376969915c1902ed14d27b085eedb4eba2b2acac7ba41fe",
+          "sha1": "174e23c5e7dfc30bdd3a8fa7eeaca4c9d8606ae4",
+          "md5": "6d5df7425f63ddec986678adbae7f3e5"
+        }
+      ]
+    }
+  ]
+}

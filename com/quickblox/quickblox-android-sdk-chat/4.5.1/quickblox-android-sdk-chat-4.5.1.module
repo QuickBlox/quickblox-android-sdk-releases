@@ -1,0 +1,90 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.quickblox",
+    "module": "quickblox-android-sdk-chat",
+    "version": "4.5.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.6"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "com.quickblox",
+          "module": "quickblox-android-sdk-core",
+          "version": {
+            "requires": "4.5.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "quickblox-android-sdk-chat-4.5.1.aar",
+          "url": "quickblox-android-sdk-chat-4.5.1.aar",
+          "size": 777702,
+          "sha512": "070e2c06e3ed530361fbe72390a222198b3856833e45153f796772e1c58ea65eaafbc49c8a6fc43462718f284299d45963178547612fd422ab7a18424a7500bb",
+          "sha256": "9620d57c4f05b8a611820e1a05182f2e53cfd24d2053d795c49d00f8e54cde8c",
+          "sha1": "55bf787ce70075fe530deb028bd5e89ee3d8b9a5",
+          "md5": "2498f37878dbad0444fbf7662b07fda0"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.jxmpp",
+          "module": "jxmpp-core",
+          "version": {
+            "requires": "0.5.0"
+          }
+        },
+        {
+          "group": "de.measite.minidns",
+          "module": "minidns",
+          "version": {
+            "requires": "0.1.7"
+          }
+        },
+        {
+          "group": "com.quickblox",
+          "module": "quickblox-android-sdk-core",
+          "version": {
+            "requires": "4.5.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "quickblox-android-sdk-chat-4.5.1.aar",
+          "url": "quickblox-android-sdk-chat-4.5.1.aar",
+          "size": 777702,
+          "sha512": "070e2c06e3ed530361fbe72390a222198b3856833e45153f796772e1c58ea65eaafbc49c8a6fc43462718f284299d45963178547612fd422ab7a18424a7500bb",
+          "sha256": "9620d57c4f05b8a611820e1a05182f2e53cfd24d2053d795c49d00f8e54cde8c",
+          "sha1": "55bf787ce70075fe530deb028bd5e89ee3d8b9a5",
+          "md5": "2498f37878dbad0444fbf7662b07fda0"
+        }
+      ]
+    }
+  ]
+}
